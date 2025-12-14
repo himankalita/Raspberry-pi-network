@@ -76,6 +76,13 @@ retention_days: 30
 camera_backend: "rpi"
 sensor_enabled: true
 log_file: "/home/pi/data/edge.log"
+crate:
+  id: 2
+  label: "crate_01"
+  location: "BioLab A_Rack 2"
+  notes: "High protein feed"
+  started_at: "2025-02-01"
+  ended_at: null
 ```
 
 Ensure the directories specified in `db_path`, `image_dir` and `log_file` exist or
